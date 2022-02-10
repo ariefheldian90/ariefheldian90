@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  
+<metadata>
+	<id>winamp</id>
+    <title> winamp (Install)</title>
+    <authors> arief </authors>
+	<version>5</version>
+    <tags> winamp583660 </tags>
+    <summary>enak buat dengerin lagu</summary>
+    <description>for listening music </description>
+	 <owners> tvlk </owners>
+
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
